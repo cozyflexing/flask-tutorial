@@ -31,6 +31,10 @@ def create_app():
     def load_user(id):
         return User.query.get(int(id))
 
+    from dash_application import create_dash
+
+    create_dash(app)
+
     return app
 
 
