@@ -1,0 +1,21 @@
+.chartgrid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(4,1fr);
+
+
+    margin-inline: auto;
+    padding-block: 2rem;
+    width: min(100%, 120rem);    
+    background-color: blueviolet;
+}
+
+.griditem{
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: azure;
+}
+
+.grid-col-span-4{
+    grid-column: span 4;
+}
